@@ -1,14 +1,14 @@
-Background
+Background:
 The video game industry is dynamic and highly competitive, with countless titles released each year across various platforms and genres. To succeed in this space, it's essential for publishers and developers to have a deep understanding of market dynamics, including sales trends, popular genres, and effective platforms for distribution.
 
-Project Objectives
+Project Objectives:
 Analyze global video game sales data (from Kaggle) to identify key trends and patterns.
 Determine the most influential factors affecting game sales, such as genre, platform, and region.
 Explore market share among game publishers to understand the competitive landscape.
 Segment games into different sales categories for targeted analysis.
 Create predictive models to estimate global game sales based on available data.
 
-Project Challenge
+Project Challenge:
 Navigating the vast and intricate landscape of video game sales data presented a significant challenge. Managing a dataset with missing values and diverse attributes required meticulous data preprocessing. Additionally, interpreting complex correlations and high cardinality features while building predictive models demanded a combination of statistical expertise and machine learning proficiency.
 
 Dealing with a large and diverse dataset with missing values.
@@ -21,10 +21,10 @@ The data set contains mostly nominal and ordinal values, which can be challengin
 Unsupervised learning was chosen for this project.
 The data set used in this project is relatively small, and it only includes video games that have sold over 100,000 copies. This means that the results of the analysis may not be generalizable to all video games.
 
-Solutions
+Solutions:
 To tackle these challenges, I employed various data analysis and modeling techniques. I cleaned the dataset, visualized correlations, and used both linear regression and machine learning algorithms like K-Means clustering to gain insights. I also considered one-hot encoding for categorical features and performed in-depth statistical analyses.
 
-Data preprocessing
+Data preprocessing:
 Irrelevant data, such as the "RANK" column and null values, were removed.
 Records with dates after 2017 were excluded, as the data set was created in 2017.
 Methods
@@ -32,7 +32,7 @@ Linear regression was used to compare the "North America Sales" and "Global Sale
 Decision tree regression was used to predict "Global Sales" based on the other features in the data set. The decision tree model was able to follow the non-linear trends in the data better than the linear regression model
 
 
-Results
+Results:
 
 My analysis revealed several key findings:
 
